@@ -1,0 +1,4 @@
+<choice ident="map" choices="Lilac1_1,Aimuari12_1,Akhlys6_1,Akhlys6_2,MapThree,Gallows16_1,Gallows16_2,Gallows16_3,Gallows16_4,Gallows16_5,Iocane22_1,Iocane22_2,Iocane22_3,Duat9_1,Duat9_2,Duat9_3,Zuyua5_1,Zuyua6_1,Zuyua6_4,Fintan12_3,Terra30_1,Kirin17_1,LabyrinthMoors_22_4,WindwardVale_16_2,WindwardVale_16_3,Jubilee_11_3" start="Jubilee_11_3"/>
+<choice name="Turn Time" ident="TurnTime" choices="10,15,25,35,45" start="35"/>
+<toggle ident="friendly fire" start="true"/>
+<range name="Sink delay(turns)" ident="SinkDelay" minimum="0" maximum="6" start="2"/>

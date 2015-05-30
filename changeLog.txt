@@ -1,0 +1,41 @@
+v3.0.4
+3rd August
+#Split out GameInformation
+
+v3.0.3
+2nd August
+#Refactored GameInformation, ready for it to be split out to support local testing as well as whirled API functionality
+#Added getters and setters for most GameInformation properties
+#Added some interfaces
+#Removed some sub-packages in game and moved their contents into game
+
+v3.0.2
+31st July
+#Further reduced coupling with Whirled's API
+#Separated out some more classes and created some basis for being able to do unit tests
+
+v3.0.1
+27th July
+#Added more singletons to provide global access points and reduce the number of responsibilities of other classes
+#Reduced coupling with Whirled's API
+
+v3.0.0
+26th July 2012
+#Started refactoring to split out the GUI from the Logic
+#Changed GameInformation to be a singleton class
+
+======= OLD =========
+31st Dec 2011
+#Done a lot of variable renaming in collision mechanics and made ship moves more object oriented
+31st Dec 2011
+#Added some structures for more unit testing
+#Started to abstract away how information is stored using new classes in GameScreen and MoveInput
+22nd Nov 2011
+#Added two new classes to games package: ShipStats and Constants, to add readability
+#Fixed the bug that caused moves to be reset to 242 every move and replaced two function calls in the animation funciton with animationFinished in MoveInput
+17th Nov 2011
+#Patched Bilge resetting after every move
+#Reduced effectiveness of sailors and bilgers
+26th July 2011
+#Patched damage resetting after a ram sink
+#Added the sink delay option

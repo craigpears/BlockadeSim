@@ -1,0 +1,1 @@
+Make it easier to add maps - move all the maps into text files, the name of the map being the name of the textfile and have the code pick up those files
